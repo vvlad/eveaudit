@@ -1,0 +1,38 @@
+--- !ruby/hash:OmniAuth::AuthHash
+provider: eve_online
+uid: 96446049
+info: !ruby/hash:OmniAuth::AuthHash::InfoHash
+  name: Bamboosa
+  character_id: 96446049
+  expires_on: '2018-05-12T15:33:18'
+  scopes: characterContactsRead characterAssetsRead characterAccountRead characterChatChannelsRead
+    characterClonesRead esi-mail.read_mail.v1 esi-skills.read_skills.v1 esi-skills.read_skillqueue.v1
+    esi-wallet.read_character_wallet.v1 esi-clones.read_clones.v1 esi-characters.read_contacts.v1
+    esi-killmails.read_killmails.v1 esi-corporations.read_corporation_membership.v1
+    esi-characters.read_medals.v1 esi-characters.read_standings.v1 esi-characters.read_corporation_roles.v1
+    esi-contracts.read_character_contracts.v1 esi-clones.read_implants.v1 esi-characters.read_fatigue.v1
+    esi-killmails.read_corporation_killmails.v1 esi-characters.read_notifications.v1
+    esi-characters.read_titles.v1 esi-characterstats.read.v1
+  token_type: Character
+  character_owner_hash: nWk8x1rb0N6RCI9p0r0o/xGqV68=
+credentials: !ruby/hash:OmniAuth::AuthHash
+  token: UEi9PeZ-qaQHAVv35KF3bTyINrFhij03pZJGk2rJ8EPIYIGW9PSgyPs3gDFcwAf65F3c1zZz5gxZQjA5SVXM8w2
+  refresh_token: GR1ogzDnslF2mEfbMWTaB4v38nvL9m7YQkLYqYsLGhTygVWn8A7vGDt3j8epsjxdEb06Y5jAOk0wyHunpEvE6ajowUQrRa4gC0JK8Lbj6Gb_L7TcHTTbaAnMaA8zk7bAxtXLz05AAVY08DqssNx8lKRdb0EcTdEiJGeNLlbo1yU1
+  expires_at: 1526139196
+  expires: true
+extra: !ruby/hash:OmniAuth::AuthHash
+  raw_info: !ruby/hash:OmniAuth::AuthHash
+    CharacterID: 96446049
+    CharacterName: Bamboosa
+    ExpiresOn: '2018-05-12T15:33:18'
+    Scopes: characterContactsRead characterAssetsRead characterAccountRead characterChatChannelsRead
+      characterClonesRead esi-mail.read_mail.v1 esi-skills.read_skills.v1 esi-skills.read_skillqueue.v1
+      esi-wallet.read_character_wallet.v1 esi-clones.read_clones.v1 esi-characters.read_contacts.v1
+      esi-killmails.read_killmails.v1 esi-corporations.read_corporation_membership.v1
+      esi-characters.read_medals.v1 esi-characters.read_standings.v1 esi-characters.read_corporation_roles.v1
+      esi-contracts.read_character_contracts.v1 esi-clones.read_implants.v1 esi-characters.read_fatigue.v1
+      esi-killmails.read_corporation_killmails.v1 esi-characters.read_notifications.v1
+      esi-characters.read_titles.v1 esi-characterstats.read.v1
+    TokenType: Character
+    CharacterOwnerHash: nWk8x1rb0N6RCI9p0r0o/xGqV68=
+    IntellectualProperty: EVE

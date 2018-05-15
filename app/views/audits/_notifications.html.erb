@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="card-header">Items received from</div>
+  <div class="card-body">
+    <%@character.notifications.outstanding.each do |notification| %>
+      <div class="notification">
+        <%= link_to notification.character&.name, audit_path(notification.character) %>
+        on <%=l notification.created_at.to_date, format: :short %> </b>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="card-header">Character History</div>
+  <div class="card-body">
+    <% @character.corporation_memberships.each do |membership| %>
+      <div class="membership mb-2">
+        <div><%= membership.name || "-" %> [<%= membership.ticker || "-" %>]</div>
+        <%= link_to "Zk", "https://zkillboard.com/corporation/#{membership.corporation_id}", target: :_blank %>
+        <small>
+          <%=l membership.joined_at.to_date, format: :short %>
+          &minus;
+          <%= distance_of_time_in_words(membership.joined_at, membership.leaved_at || Time.now)%>
+        </small>
+      </div>
+    <% end %>
+  </div>
+</div>

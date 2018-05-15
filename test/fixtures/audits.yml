@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  character_id: 96446049
+  key: MyString
+  access_token: "WyieRW2X1MubBE5yWPb7uL96jpGwh2baoyoUe8h6XXNv-tX1I4iVbIKI64wb3Vo6dPyVtiwGqjTk980ZTVhcNg2"
+
+two:
+  character: two
+  key: MyString

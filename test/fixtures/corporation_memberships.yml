@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  corporation: one
+  character: one
+  joined_at: 2018-05-10 23:35:02
+  leaved_at: 2018-05-10 23:35:02
+
+two:
+  corporation: two
+  character: two
+  joined_at: 2018-05-10 23:35:02
+  leaved_at: 2018-05-10 23:35:02
