@@ -30,13 +30,6 @@ ESI_SCOPES = %w[
   esi-characters.read_notifications.v1
 ].freeze
 
-#
-# esi-corporations.read_contacts.v1
-# esi-corporations.read_titles.v1
-# esi-corporations.read_standings.v1
-# esi-corporations.read_container_logs.v1
-#
-
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :eve_online, Rails.application.credentials.esi_app_id, Rails.application.credentials.esi_secret, scope: ESI_SCOPES.join(" ")
 end
